@@ -19,4 +19,12 @@
 5. 표준 입력 받아 주문 정보 추가하고 트랜잭션이용해서 상품 정보 값 수정한다.
 
 
+[후기]
+
+JDBC -> JDBC templte -> mybatis -> Jpa + hibernate -> spring jpa 
+
+JAVA와 DBMS 연결 및 객체지향 자바코드로 DB 컨트롤 할 수 있도록 변화해온 SQL 맵핑 기술에 대해 알아 볼 수 있었다.
+spring jpa 의 한줄 메소드가 내부적으로는 DB커넥션, 클로즈, 엔티티매니저, flush(), commit() 등 여러 절차 거치고 있음을, 무지 압축되어 사용되고 있음을 알 수 있었다.
+
+
 
